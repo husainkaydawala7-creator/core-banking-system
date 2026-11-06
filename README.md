@@ -4,12 +4,14 @@
 [![Language](https://img.shields.io/badge/Language-C%2B%2B11-brightgreen.svg)](https://isocpp.org/)
 [![Course](https://img.shields.io/badge/Data%20Structures-Sem%203-orange.svg)](#academic-context)
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey.svg)](#getting-started)
+[![Project Summary](https://img.shields.io/badge/Documentation-Project_Summary-purple.svg)](PROJECT_SUMMARY.md)
 
 > A clean, high-performance console application in C++ demonstrating real-world banking operations through fundamental data structures: **Binary Search Trees (BST)**, **Stacks (LIFO)**, and **Circular Queues (FIFO)**.
 
 ---
 
 ## 📌 Table of Contents
+- [Executive Summary](#-executive-summary)
 - [Project Overview](#-project-overview)
 - [Data Structures in Action](#-data-structures-in-action)
 - [System Architecture](#-system-architecture)
@@ -20,6 +22,18 @@
 - [Academic Context](#-academic-context)
 - [Documentation & Reports](#-documentation--reports)
 - [License](#-license)
+
+---
+
+## 📋 Executive Summary
+
+The **Core Banking Management System** simulates core retail banking functions through raw, self-contained implementations of non-linear and linear data structures in C++ without third-party libraries:
+
+* 🌳 **Binary Search Tree (BST):** Fast $O(\log n)$ customer account lookup, balance checks, and automated sorted directory retrieval via Inorder Traversal (`Left -> Root -> Right`).
+* 🥞 **Audit Stack (LIFO):** ATM mini-statement generator displaying the most recent transactions first, with overdraft rejection protection.
+* 🔄 **Circular Queue (FIFO):** Branch customer token dispatcher that guarantees fair first-come, first-served counter service with 100% array memory utilization using modulo arithmetic `(rear + 1) % MAX`.
+
+> 📄 **Read the detailed architectural & complexity breakdown:** [PROJECT_SUMMARY.md](PROJECT_SUMMARY.md)
 
 ---
 
@@ -81,6 +95,7 @@ flowchart TD
 
 ```text
 ├── bank_system.cpp      # Complete C++ source code (~155 lines)
+├── PROJECT_SUMMARY.md   # Executive summary & complexity analysis
 ├── Project_Report.pdf   # Complete 10-page formatted academic report (PDF)
 ├── Project_Report.md    # Full academic project documentation (Markdown)
 ├── LICENSE              # Apache License 2.0
@@ -166,8 +181,9 @@ Choice (1-9): 8
 
 ## 📑 Documentation & Reports
 
-- Read the complete academic report online: [Project_Report.md](Project_Report.md)
-- Download the ready-to-print PDF: [Project_Report.pdf](Project_Report.pdf)
+- **Executive Summary:** [PROJECT_SUMMARY.md](PROJECT_SUMMARY.md)
+- **Full Academic Report (Online):** [Project_Report.md](Project_Report.md)
+- **Printable Report (PDF):** [Project_Report.pdf](Project_Report.pdf)
 
 ---
 
