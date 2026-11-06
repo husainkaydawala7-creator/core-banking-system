@@ -1,0 +1,17 @@
+# Executables and binaries
+*.exe
+*.out
+*.app
+*.o
+*.obj
+
+# Debug and IDE files
+.vscode/
+.idea/
+*.suo
+*.user
+*.log
+
+# Temporary and build scratch files
+temp_*
+scratch/
